@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppConselho.MainPage"
+             BackgroundImageSource="fundo.jpg">
+
+    <StackLayout>
+        <Label Text=""/>
+        <Label Text=""/>
+        <Label Text=""/>
+        <Label Text=""/>
+        <Label Text=""/>
+
+        <Label Text="Frases Motivacionais" HorizontalTextAlignment="Center" FontAttributes="None" TextColor="#4682B4" FontSize="35"/>
+       
+        <Label Text=""/>
+        <Label Text=""/>
+
+        <Button Text="Receba uma frase"
+                TextColor="#4682B4"
+                Clicked="Button_Clicked"
+                CornerRadius="10"
+                Margin="18"
+                BackgroundColor="#E0FFFF"/>
+
+
+    </StackLayout>
+
+</ContentPage>
